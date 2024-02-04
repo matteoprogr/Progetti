@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black; /* Dark blue background */
+    color: #ecf0f1; /* Light text color */
+}
+
+/* Form container styles */
+#yourFormContainerId {
+    background-color: #3498db; /* Blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type=text]{
+    width: 85%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    border-color: #3498db; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Style for labels */
+label {
+	width: 85%;
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff; /* Text color */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style for radio buttons */
+input[type=radio] {
+    margin-left: 10px;
+    font-size: 14px; /* Adjust the font size of the label */
+    color: #333; /* Text color */
+    vertical-align: middle; /* Adjust the spacing between radio buttons and labels */
+}
+
+/* Style for buttons */
+button {
+    margin: 5px; /* Add margin of 5px */
+    padding: 12px 24px;
+    cursor: pointer;
+    background-color: #e74c3c; /* Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+p{
+	width: 15%;
+    display: inline;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff; /* Text color */
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-left: 8px;
+	
+}
+
+/* Style for the navbar container */
+nav {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
